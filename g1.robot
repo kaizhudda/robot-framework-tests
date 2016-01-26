@@ -10,5 +10,7 @@ GoogleSearchFox
     [Arguments]    ${browser}
     Open Browser    http://www.google.com    ${browser}
     Go To	http://RobotFramework.org
-    Sleep	4
+    Click Element	//a[text()="Examples"]
+    Click Element	//a[text()="Test libraries"]
+    Sleep	2
     Close All Browsers
