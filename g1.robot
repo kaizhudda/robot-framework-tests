@@ -8,6 +8,9 @@ GoogleSearchTest
 GoogleSearch
     fail
 
+FailTest
+    FAIL
+
 *** Keywords ***
 GoogleSearchFox
     [Arguments]    ${browser}
