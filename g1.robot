@@ -5,12 +5,6 @@ Library           Selenium2Library
 GoogleSearchTest
     GoogleSearchFox    gc
 
-GoogleSearch
-    fail
-
-FailTest
-    FAIL
-
 *** Keywords ***
 GoogleSearchFox
     [Arguments]    ${browser}
